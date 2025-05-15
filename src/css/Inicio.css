@@ -125,7 +125,7 @@ button:hover {
 }
 
 #hero h1 {
-    font-size: 4em;
+    font-size: 100px;
 }
 
 /*//////////////////////////////////////////////////////////////*/
@@ -136,7 +136,7 @@ button:hover {
 
 #Segunda .container {
     text-align: center;
-    padding: 200px 12px;
+    padding: 45px 100px;
 }
 
 #Segunda .container {
@@ -146,9 +146,9 @@ button:hover {
 
 #Segunda .texto {
     width: 50%;
-    text-align: initial;
-    padding: 0px 30px;
-    max-width: 600px;
+    text-align: center;
+    padding: 0px 60px;
+    max-width: 750px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -316,4 +316,6 @@ footer .container {
     #nuestros-servicios .carte {
         padding: 15px;
     }
+
+
 }

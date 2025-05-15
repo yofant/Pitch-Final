@@ -1,5 +1,5 @@
 
-import"../styles/NavBar.css";
+import "../css/NavBar.css";
 const NavBar = () => {
     return (
       <>
@@ -8,20 +8,26 @@ const NavBar = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" href="/Inicio">
-                <i class="bi bi-house-fill"></i>
+                <i class="bi bi-house-door-fill"></i>
                   Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/Registro">
-                <i class="bi bi-ui-checks"></i>
+                <i className="bi bi-ui-checks"></i>
                   Registro
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/Login">
-                <i class="bi bi-person-arms-up"></i>
+                <i className="bi bi-box-arrow-in-right"></i>
                   Iniciar Sesion
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/Carrito">
+                <i className="bi bi-cart-check"></i>
+                  Carrito
                 </a>
               </li>
             </ul>

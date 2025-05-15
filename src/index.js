@@ -5,6 +5,13 @@ import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } 
 import Inicio from "./Inicio/Inicio";
 import Registro from "./Registro/Registro";
 import Login from "./Login/Login";
+import Serviceautomation from "./Serviceautomation/Serviceautomation";
+import Serviciocamaras from "./ServicioCamaras/Serviciocamaras";
+import Serviciogps from "./Serviciogps/serviciogps";
+import Carrito from "./Carrito/Carrito";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -12,6 +19,10 @@ const router = createBrowserRouter(
       <Route path="Inicio" element={<Inicio />} />
       <Route path="Registro" element={<Registro />} />
       <Route path="Login" element={<Login />} />
+      <Route path="Serviceautomation" element={<Serviceautomation />} />
+      <Route path="Serviciocamaras" element={<Serviciocamaras />} />
+      <Route path="Serviciogps" element={<Serviciogps />} />
+      <Route path="Carrito" element={<Carrito />} />
     </Route>
   )
 );

@@ -1,0 +1,7 @@
+.item-image {
+  width: 250px;        /* Tamaño fijo opcional */
+  height: 180px;       /* Puedes ajustar el alto */
+  object-fit: cover;   /* Recorta sin deformar */
+  border-radius: 8px;  /* Bordes redondeados (opcional) */
+  margin-top: 10px;    /* Espaciado arriba */
+}
