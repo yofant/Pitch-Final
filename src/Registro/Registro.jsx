@@ -17,7 +17,9 @@ const Registro = () => {
                 <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contarseña" required/>
                 <p>Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></p>
                 <input type="submit" value="Registrar" class="botons"/>
-                <p className="login-register">¿Ya tienes una cuenta? <a href="/loginusuario">Iniciar Sesión</a></p>
+                <p className="login-register">¿Ya tienes una cuenta? <a className="nav-link" href="/Login">
+                     Iniciar Sesion
+                </a></p>
 
             </form>
 

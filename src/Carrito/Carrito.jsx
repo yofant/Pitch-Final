@@ -12,8 +12,8 @@ const Carrito = () => {
 
         <input className="controls" type="text" name="usuario" id="usuario" placeholder="INGRESA EL PRODUCTO" required/>
         <input className="controls" type="password" name="contrasena" id="contrasena" placeholder="NOMBRES" required/>
-         <input className="controls" type="password" name="contrasena" id="contrasena" placeholder="APELLIDOS" required/>
-          <input className="controls" type="password" name="contrasena" id="contrasena" placeholder="DIRECCION" required/>
+        <input className="controls" type="password" name="contrasena" id="contrasena" placeholder="APELLIDOS" required/>
+        <input className="controls" type="password" name="contrasena" id="contrasena" placeholder="DIRECCION" required/>
 
         <input type="submit" value="TERMINAR COMPRA" className="botons"/>
 

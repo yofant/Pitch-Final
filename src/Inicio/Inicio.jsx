@@ -21,22 +21,24 @@ const Pagina1 = () => {
             
           }}
         >
-          <h6 tyle={{ color: "#000000", fontSize: "800px" }}>
+          <h1>
             BIENVENIDO A: <br />
             MultiServicios SAS
-          </h6>{" "}
+          </h1>{" "}
           <br />
           
 
 <h2 style={{ color: "#ffffff", fontSize: "40px" }}>
   Tecnología y confianza para transformar tu hogar
-</h2>
+</h2> 
 
 
 
           <form action="http://whatsapp.com/">
+          <br />
             <button>Contacto</button>
           </form>
+          
         </section>
 
         <section id="Segunda">

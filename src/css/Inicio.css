@@ -27,10 +27,10 @@ header { /* Navegacion */
 
 .boton-w { /* Botton w */
     position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 55px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    bottom: 30px;
     right: 30px;
     background: #0df053;
     color: white;
@@ -90,7 +90,7 @@ p {
 }
 
 button {
-    font-size: 1.5em;
+    font-size: 20px;
     font-weight: bold; /* Negrilla */
     padding: 10px 30px; /* Separado */
     border-radius: 15px; /* Botton circular */
@@ -121,11 +121,12 @@ button:hover {
 }
 
 #hero button {
-    font-size: 2.5em;
+    font-size: 30px;
 }
 
 #hero h1 {
     font-size: 100px;
+    color: black;
 }
 
 /*//////////////////////////////////////////////////////////////*/
