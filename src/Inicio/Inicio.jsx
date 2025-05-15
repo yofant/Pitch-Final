@@ -18,12 +18,13 @@ const Pagina1 = () => {
             color: "white",
             padding: "100px 20px",
             textAlign: "center",
+            
           }}
         >
-          <h1>
+          <h6 tyle={{ color: "#000000", fontSize: "800px" }}>
             BIENVENIDO A: <br />
             MultiServicios SAS
-          </h1>{" "}
+          </h6>{" "}
           <br />
           
 
